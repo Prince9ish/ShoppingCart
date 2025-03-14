@@ -102,7 +102,7 @@ Below is a simplified view of the main folders and files you might see in the re
 
 1. **Clone the Repository** (or download the zipped file):
    ```bash
-   git clone https://github.com/your-username/food-store-calculator.git
+   git clone https://github.com/Prince9ish/ShoppingCart
    ```
 2. **Install Server Dependencies:**
   ```bash
