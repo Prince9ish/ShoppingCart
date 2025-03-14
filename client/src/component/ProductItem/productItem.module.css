@@ -1,0 +1,63 @@
+
+.image {
+    padding: 0rem;
+    width: 10rem;
+    height: 9rem;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.025);
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    flex:1;
+    gap: 4rem;
+}
+
+.largeContainer {
+    flex: 2 0 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.regularContainer {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0.25rem;
+    font-family: "SukhumvitSetSemiBold";
+}
+
+.description {
+    font-size: 0.75rem;
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+    padding-bottom: 0.25rem;
+    font-family: "SukhumvitSet";
+    font-weight: lighter;
+    color: #757575;
+}
+
+.price {
+    padding-bottom: 0.25rem;
+    font-size: 16px;
+    /*color: #BFBFBF;*/
+    font-family: "Sukhumvit Set";
+
+}

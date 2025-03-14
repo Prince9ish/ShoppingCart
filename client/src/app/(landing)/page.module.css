@@ -1,0 +1,117 @@
+.page {
+    font-family: "Sukhumvit Set";
+    display: flex;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 0.75rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.textBold {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.leftContainer {
+    flex: 7;
+    background-color: white;
+    padding-inline: 5rem;
+    padding-block: 3.5rem;
+
+    .mainContent {
+        padding-top: 20rem;
+        padding-block: 2.5rem;
+    }
+}
+
+.rightContainer {
+    flex: 3;
+    background-color: #FAFAFA;
+    padding-inline: 3rem;
+    padding-block: 4.5rem;
+
+    .mainContent {
+        padding-top: 0.15rem;
+    }
+}
+
+.divider {
+    width: 100%;
+    height: 1.2px;
+    background-color: #a1a0a0;
+    border-radius: 0.5px;
+}
+
+.headerContainer {
+    display: flex;
+    padding-bottom: 1.5rem;
+    gap: 4rem;
+}
+
+.largeHeader {
+    flex: 2;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0.25rem;
+    font-family: "SukhumvitSetSemiBold";
+    color: #a1a0a0;
+}
+
+.regularHeader {
+    flex: 1;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0.25rem;
+    font-family: "SukhumvitSetSemiBold";
+    color: #a1a0a0;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionContainer {
+    padding-block: 1.5rem;
+}
+
+.subSectionContainer {
+    padding-block: 0.5rem;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.twoColumnContainer {
+    display: flex;
+
+    .leftItem {
+        flex: 1;
+    }
+
+    .rightItem {
+        flex: 1;
+        text-align: end;
+    }
+}
