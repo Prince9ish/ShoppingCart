@@ -2,7 +2,6 @@
 
 Welcome to the **Shopping Cart / Food Store Calculator Application**. This project is a homework test for a software engineering position, showcasing a simple **Node.js/Express** server (the “Server”) and a **Next.js/React** client (the “Client”) that together implement a small food store with discount logic and a member card system.
 
-This README provides instructions on how to set up, run, and use the application, as well as an overview of its features, folder structure, and code design.
 ![Screenshot 2025-03-14 at 12.10.47.png](Screenshot%202025-03-14%20at%2012.10.47.png)
 [Screen Recording 2025-03-14 at 12.06.55.mov](Screen%20Recording%202025-03-14%20at%2012.06.55.mov)
 ---
